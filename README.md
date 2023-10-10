@@ -97,7 +97,28 @@ Go to “systems”. Click on “remote Desktop”. Allow “domain users” acc
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/5a417627-312f-4d06-8cae-1b40e2ae7d95)
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/027ca9d9-3b4b-449e-9742-d9c985d6ea57)
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/27e05355-862d-4aab-a328-262a87ce4313)
+
+select "ok"
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/45b1aeae-5c93-44a7-9143-a9a54461bc55)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/df11bc30-fc50-477e-ac75-0d15aecb078f)
+
+In DC-server, using PowerShell_ise(run as administrator) we loaded s script to create multiple sample users and provided a password to log in to the DC server through Client-VM.
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/17d79381-db98-4ab4-9452-15297f2585c4)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/1e1d378d-db30-44e6-904c-97721083f4fa)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/f69d215d-17de-4cb5-9059-19d7fa8e26e2)
+
+When completed we open the ADUC and select a sample user to log into Client VM with.
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/ec5dc725-bbf4-47fb-a536-9dc27c5c0803)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/a426e450-0037-400c-9e86-b674e8724f2b)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/0ffe1ef8-c08e-429b-8a3c-662ecf80d1df)
+![image](https://github.com/SedinamA/AD-setup/assets/146953803/c38d8987-851e-4aaf-b597-aa27178bceb0)
+
+Now an Active Directory for domainbysed.com has been created.
+
+
+
+
+
 
 
 

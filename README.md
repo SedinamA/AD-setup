@@ -30,16 +30,20 @@ Log into the client VM to ensure connectivity between the server and Client mach
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/4b01a92d-0482-4772-ba87-1990750c64b2)
 
 Installation of the Active Directory Domain Service on DC-Server. Kept pressing "next", then checked the "Active Directory Domain Service" option.
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/591e7a5d-06c4-4aab-9247-da192bea2043)
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/539f6044-d2af-4e71-a2c9-f107336bdfc3)
 
 Select install 
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/b0596ec8-b20c-4835-9209-481bb7b29dfb)
 
 Select close
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/7cfd0ed1-e3d6-4848-bcee-6ec1a2bdb072)
 
 click on the flag with the yellow triangular symbol on it. Then select "promote this server to a domain controller" 
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/9b2ff95b-29df-421a-8568-e3e6b1825809)
 
 Check "add new forest". 
@@ -56,6 +60,7 @@ in the Azure portal, the DC-server is then restarted
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/f7ca07b0-c64d-455c-bd68-2ee472ecab9f)
 
 Logged back into DC-Server with a new username.
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/703fc087-1032-41a2-8edc-932d39bfc38d)
 
 In the “active directory users and computers” (ADUC) the creation of two organizational units (_EMPLOYEES and _ADMINS) can be observed.
@@ -99,6 +104,7 @@ Go to “systems”. Click on “remote Desktop”. Allow “domain users” acc
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/27e05355-862d-4aab-a328-262a87ce4313)
 
 select "ok"
+
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/45b1aeae-5c93-44a7-9143-a9a54461bc55)
 ![image](https://github.com/SedinamA/AD-setup/assets/146953803/df11bc30-fc50-477e-ac75-0d15aecb078f)
 
